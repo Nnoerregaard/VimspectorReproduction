@@ -1,0 +1,13 @@
+{
+  "configurations": {
+    "launch - netcoredbg": {
+      "adapter": "netcoredbg",
+      "configuration": {
+        "request": "attach",
+        "program": "${workspaceRoot}/bin/Debug/netcoreapp3.1/Gidas.Gateway.Web.dll",
+        "args": [],
+        "stopAtEntry": true
+      }
+    }
+  }
+}
